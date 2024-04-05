@@ -1,0 +1,42 @@
+/*
+ #box1{
+    height: 200px;
+    width: 200px;
+    background-color: rebeccapurple;
+}
+#box2{
+    height: 50px;
+     width: 50px; 
+    width: 30%;
+    background-color: yellow;
+    margin-left: 10%;
+} 
+*/
+div{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    display: inline-block;
+}
+#box1{
+    position: static;
+    
+   
+}
+#box2{
+    position: relative;
+    top: 10px;
+    left:20px;
+}
+#box3{
+    position: sticky;
+    top: 50px;
+    
+}
+#box4{
+    position: fixed;
+    /* right: 102px; */
+    /* width: 100; */
+    top: 0;
+}

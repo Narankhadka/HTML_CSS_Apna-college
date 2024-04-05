@@ -1,0 +1,19 @@
+/* #h1{
+    font-weight: 100;
+}
+#h2{
+    font-weight: 200;
+}
+#h3{
+    font-weight: 900;
+} */
+.content{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+    width: 100px;
+}
+img{
+    filter: drop-shadow(15px,5px,5px,red);
+}
